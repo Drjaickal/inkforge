@@ -1,14 +1,31 @@
+# Root level loose files — should not be here
+config/
+controllers/
+prisma/
+routes/
+src/
 node_modules/
-backend/node_modules/
+server.ts
+tsconfig.json
+package.json
+package-lock.json
+
+# Frontend
 frontend/node_modules/
 frontend/.next/
 frontend/out/
-.env
-.env.local
-backend/.env
 frontend/.env.local
-dist/
-build/
+frontend/.env
+
+# Backend
+backend/node_modules/
+backend/.env
+backend/dist/
+
+# Logs
 *.log
+npm-debug.log*
+
+# OS
 .DS_Store
 Thumbs.db
