@@ -29,3 +29,10 @@ npm-debug.log*
 # OS
 .DS_Store
 Thumbs.db
+
+
+
+node_modules/
+.env
+.next/
+dist/
